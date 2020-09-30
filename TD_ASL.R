@@ -14,3 +14,5 @@ lines(x,d(x),col="green")
 #méthode non paramétrique
 y2 = c(5,4,7/3,2,10/3,19/3,8)
 points(x,y2,col="red")
+
+## Exercise 4 ####
