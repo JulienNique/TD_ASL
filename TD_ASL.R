@@ -11,6 +11,8 @@ d <- function(x){
 plot(x,y)
 lines(x,d(x),col="green")
 
+err <- sum(abs(d(x)-y))/7
+
 #méthode non paramétrique
 y2 = c(5,4,7/3,2,10/3,19/3,8)
 points(x,y2,col="red")
